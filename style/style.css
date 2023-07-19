@@ -162,3 +162,21 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+/* instant play section */
+.instantplay-container{
+    display: flex;
+    margin: 20px 10%;
+    gap: 5px;
+}
+#ipphoto1{
+    margin-left: 100px;
+    width: 600px;
+}
+#ipphoto2{
+    margin-left: 5px;
+    margin-top: -300px;
+    width: 200px;
+}
+.iplay-content{
+    text-align: center;
+}
