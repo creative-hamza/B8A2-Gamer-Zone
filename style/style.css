@@ -215,3 +215,32 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 border: 1px solid;
 }
+/* footer section */
+.footer{
+    background: black;
+    /* padding: 130px 563px; */
+    width: auto;
+    
+}
+.footer-content{
+    display: grid;
+    grid-template-columns:repeat(6,1fr) ;
+    /* gap: 20px; */
+    justify-content: space-evenly;
+}
+#footlogo{
+    color: white;
+    justify-content: center;
+    padding-top: 130px;
+}
+.footer-icon{
+    text-align: center;
+}
+.footer-p{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.footcopy{
+    padding-bottom: 130px;
+}
