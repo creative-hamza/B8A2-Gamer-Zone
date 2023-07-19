@@ -156,27 +156,62 @@ body {
     color: #534C64;
     font-size: 20px;
 }
-.pcolor{
+
+.pcolor {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 /* instant play section */
-.instantplay-container{
+.instantplay-container {
     display: flex;
     margin: 20px 10%;
     gap: 5px;
 }
-#ipphoto1{
+
+#ipphoto1 {
     margin-left: 100px;
     width: 600px;
 }
-#ipphoto2{
+
+#ipphoto2 {
     margin-left: 5px;
     margin-top: -300px;
     width: 200px;
 }
-.iplay-content{
+
+.iplay-content {
     text-align: center;
+}
+
+/* catagory style */
+.ctg-box {
+    display: flex;
+    gap: 5px;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+}
+
+.ctg-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    align-items: center;
+    margin: 20px 10%;
+    text-align: center;
+}
+/* hover */
+.ctg-box:hover{
+    width: 248px;
+height: 80px;
+border-radius: 50px;
+background: #FFF;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+border: 1px solid;
 }
