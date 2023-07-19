@@ -97,7 +97,7 @@ body {
 
 #banner-photo {
     height: 400px;
-    width: 400px;
+    width: 500px;
 }
 
 .bbtn-1,
@@ -123,4 +123,42 @@ body {
 #bc-title {
     color: #0B0223;
     font-size: 40px;
+}
+
+/* main section style */
+.onlinegame-content {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ophoto img {
+    width: 100%;
+
+}
+
+.ophoto {
+    width: 100%;
+}
+
+.onlinegame-photo {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 10%;
+}
+
+.opd {
+    width: 100%;
+}
+
+.op {
+    color: #534C64;
+    font-size: 20px;
+}
+.pcolor{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
