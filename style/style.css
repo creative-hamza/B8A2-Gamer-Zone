@@ -35,8 +35,10 @@ body {
 }
 
 .nav-btn {
-    width: 262px;
-    height: 56px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 16px 17px;
 }
 
 /* banner style */
@@ -78,7 +80,7 @@ body {
 
 .banner-container {
     /* border: 3px solid blue; */
-    max-width: 90%;
+    /* max-width: 90%; */
     margin: 0 auto 0;
     display: flex;
     justify-content: space-around;
@@ -96,4 +98,29 @@ body {
 #banner-photo {
     height: 400px;
     width: 400px;
+}
+
+.bbtn-1,
+.bbtn-2 {
+
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    padding: 15px 40px;
+    border: none;
+    color: white;
+
+}
+
+.bbtn-2 {
+    background: #4EC5F7;
+}
+
+.box1-content p {
+    color: #534C64;
+    font-size: 20px;
+}
+
+#bc-title {
+    color: #0B0223;
+    font-size: 40px;
 }
